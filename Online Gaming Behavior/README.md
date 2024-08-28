@@ -1,8 +1,35 @@
-# SQL Queries and Analysis
+# Online Gaming Behavior Analysis
 
-## Overview
-This folder contains SQL scripts and queries used for analyzing the [online_gaming_behavior_dataset](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/Data/online_gaming_behavior_dataset.csv). Each script performs a specific analysis to extract insights from the data.
+## Table of Content
+ - [SQL Queries and Analysis](#sql-queries-and-analysis)
 
+## Introduction
+
+As online gaming continues to grow in popularity, understanding player behavior has become essential for game developers and platform operators. This project aims to analyze key aspects of online gaming behavior, focusing on player demographics, engagement levels, and in-game interactions. By exploring patterns in the data, the analysis provides insights that can help enhance the gaming experience, improve player retention, and inform strategic decisions in the gaming industry. The analysis leverages various tools and techniques to extract meaningful insights from the data, including SQL for data querying and Tableau for interactive visualizations. These insights offer a clearer understanding of how different player segments engage with games and interact within gaming environments.
+
+## Data
+
+This project involves analyzing the [online_gaming_behavior_dataset](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/Data/online_gaming_behavior_dataset.csv) using SQL scripts. The dataset offers comprehensive details about online gamers, including attributes such as player demographics, engagement levels, and in-game behaviors. By applying various SQL queries, we aim to extract valuable insights and trends from this data to better understand player behavior and preferences. The analysis covers a range of aspects, from player age and gender to gaming session patterns and in-game purchases.
+
+In addition to SQL analysis, interactive visualizations will be created using Tableau to provide a more intuitive exploration of the data. These visualizations will help to further uncover patterns and trends, making it easier to interpret the insights derived from the dataset.
+
+The dataset includes the following columns:
+ - Player ID: Unique identifier for each player.
+ - Age: Age of the player.
+ - Gender: Gender of the player.
+ - Location: Geographic location of the player.
+ - Game Genre: Genre of the games played (e.g., FPS, MOBA, Strategy).
+ - Play Time (hours): Total time spent playing.
+ - In-Game Purchases: Total purchases made within games.
+ - Game Difficulty: Difficulty level of the games played (e.g., Easy, Medium, Hard).
+ - Sessions per Week: Number of gaming sessions per week.
+ - Avg Session Duration (minutes): Average duration of each gaming session, measured in minutes.
+ - Player Level: Progression level of the player in the game.
+ - Achievements Unlocked: Number of in-game achievements unlocked.
+ - Engagement Level: Player engagement level (e.g., Low, Medium, High).
+
+
+## SQL Queries and Analysis
 ### 1. Demographic Analysis: Calculate the average age of players segmented by gender and location.
 ```sql
 SELECT 
