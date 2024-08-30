@@ -2,6 +2,7 @@
 
 ## Table of Content
  - [SQL Queries and Analysis](#sql-queries-and-analysis)
+ - [Tableau Visualization](#tableau-visualization)
 
 ## Introduction
 
@@ -194,3 +195,8 @@ FROM spending_behavior
 ORDER BY percentage DESC;
 ```
 ![Query 10](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%2010.png)
+
+
+## Tableau Visualization
+This dashboard offers insights into how different demographics and game genres behave when they play. It looks at important data including average age by location and gender, player engagement levels, and how these relate to in-game purchases. The dashboard also analyzes session duration based on weekly sessions and engagement levels, and it shows the average playing hours by game genre. Game developers and marketers can gain important data-driven insights from this graphic representation of player behavior trends and patterns.
+![Online Gaming Behavior Tableau Visualizaation](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior/Tableau/Online%20Gaming%20Behavior%20Dashboard.png)
