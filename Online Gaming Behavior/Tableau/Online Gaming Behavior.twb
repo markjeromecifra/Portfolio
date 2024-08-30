@@ -1,0 +1,1890 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='OnlineGamingBehavior' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' inline='true' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='online_gaming_behavior_dataset' name='excel-direct.0atmwi116n89qk0zka5f01igxuqw'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cif/Documents/Portfolio/Online Gaming Behavior/Data/online_gaming_behavior_dataset.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0atmwi116n89qk0zka5f01igxuqw' name='online_gaming_behavior_dataset' table='[online_gaming_behavior_dataset$]' type='table'>
+          <columns gridOrigin='A1:M10001:no:A1:M10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='PlayerID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Location' ordinal='3' />
+            <column datatype='string' name='GameGenre' ordinal='4' />
+            <column datatype='real' name='PlayTimeHours' ordinal='5' />
+            <column datatype='integer' name='InGamePurchases' ordinal='6' />
+            <column datatype='string' name='GameDifficulty' ordinal='7' />
+            <column datatype='integer' name='SessionsPerWeek' ordinal='8' />
+            <column datatype='integer' name='AvgSessionDurationMinutes' ordinal='9' />
+            <column datatype='integer' name='PlayerLevel' ordinal='10' />
+            <column datatype='integer' name='AchievementsUnlocked' ordinal='11' />
+            <column datatype='string' name='EngagementLevel' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0atmwi116n89qk0zka5f01igxuqw' name='online_gaming_behavior_dataset' table='[online_gaming_behavior_dataset$]' type='table'>
+          <columns gridOrigin='A1:M10001:no:A1:M10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='PlayerID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Location' ordinal='3' />
+            <column datatype='string' name='GameGenre' ordinal='4' />
+            <column datatype='real' name='PlayTimeHours' ordinal='5' />
+            <column datatype='integer' name='InGamePurchases' ordinal='6' />
+            <column datatype='string' name='GameDifficulty' ordinal='7' />
+            <column datatype='integer' name='SessionsPerWeek' ordinal='8' />
+            <column datatype='integer' name='AvgSessionDurationMinutes' ordinal='9' />
+            <column datatype='integer' name='PlayerLevel' ordinal='10' />
+            <column datatype='integer' name='AchievementsUnlocked' ordinal='11' />
+            <column datatype='string' name='EngagementLevel' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M10001:no:A1:M10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlayerID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PlayerID]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>PlayerID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameGenre</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GameGenre]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>GameGenre</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlayTimeHours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PlayTimeHours]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>PlayTimeHours</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InGamePurchases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InGamePurchases]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>InGamePurchases</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameDifficulty</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GameDifficulty]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>GameDifficulty</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SessionsPerWeek</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SessionsPerWeek]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>SessionsPerWeek</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AvgSessionDurationMinutes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AvgSessionDurationMinutes]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>AvgSessionDurationMinutes</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlayerLevel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PlayerLevel]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>PlayerLevel</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AchievementsUnlocked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AchievementsUnlocked]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>AchievementsUnlocked</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EngagementLevel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EngagementLevel]</local-name>
+            <parent-name>[online_gaming_behavior_dataset]</parent-name>
+            <remote-alias>EngagementLevel</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RCA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[ctd:PlayerID:qk]&quot;' value='# of Players' />
+        </aliases>
+      </column>
+      <column caption='Achievements Unlocked' datatype='integer' name='[AchievementsUnlocked]' role='measure' type='quantitative' />
+      <column caption='Avg Session Duration Minutes' datatype='integer' name='[AvgSessionDurationMinutes]' role='measure' type='quantitative' />
+      <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+      <column caption='Game Difficulty' datatype='string' name='[GameDifficulty]' role='dimension' type='nominal' />
+      <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='In Game Purchases' datatype='integer' name='[InGamePurchases]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+      <column caption='Play Time Hours' datatype='real' name='[PlayTimeHours]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[PlayerID]' role='dimension' type='ordinal' />
+      <column caption='Player Level' datatype='integer' name='[PlayerLevel]' role='measure' type='quantitative' />
+      <column caption='Sessions Per Week' datatype='integer' name='[SessionsPerWeek]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='online_gaming_behavior_dataset' datatype='table' name='[__tableau_internal_object_id__].[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]' role='measure' type='quantitative' />
+      <column-instance column='[AvgSessionDurationMinutes]' derivation='Avg' name='[avg:AvgSessionDurationMinutes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PlayerLevel]' derivation='Avg' name='[avg:PlayerLevel:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PlayerID]' derivation='CountD' name='[ctd:PlayerID:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Game Genre)' hidden='true' name='[Action (Game Genre)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[GameGenre]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Gender,Location)' hidden='true' name='[Action (Gender,Location)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Gender]' />
+          <groupfilter function='level-members' level='[Location]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/cif/AppData/Local/Temp/TableauTemp/#TableauTemp_095jmai0t3859x1axp1k51amlkz3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/30/2024 08:47:20 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>PlayerID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PlayerID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PlayerID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40034</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>35</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>3</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GameGenre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GameGenre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GameGenre</remote-alias>
+              <ordinal>4</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PlayTimeHours</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PlayTimeHours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PlayTimeHours</remote-alias>
+              <ordinal>5</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>40034</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InGamePurchases</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InGamePurchases]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InGamePurchases</remote-alias>
+              <ordinal>6</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GameDifficulty</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GameDifficulty]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GameDifficulty</remote-alias>
+              <ordinal>7</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SessionsPerWeek</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SessionsPerWeek]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SessionsPerWeek</remote-alias>
+              <ordinal>8</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AvgSessionDurationMinutes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AvgSessionDurationMinutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AvgSessionDurationMinutes</remote-alias>
+              <ordinal>9</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>205</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PlayerLevel</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PlayerLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PlayerLevel</remote-alias>
+              <ordinal>10</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>104</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AchievementsUnlocked</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AchievementsUnlocked]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AchievementsUnlocked</remote-alias>
+              <ordinal>11</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EngagementLevel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EngagementLevel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EngagementLevel</remote-alias>
+              <ordinal>12</ordinal>
+              <family>online_gaming_behavior_dataset</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RCA_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:AvgSessionDurationMinutes:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:PlayerLevel:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Location:nk]' palette='green_orange_cyan_yellow_10_0' type='palette'>
+            <map to='#4e9f50'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+            <map to='#87d180'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#ef8a0c'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#fcc66d'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:EngagementLevel:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#51b364'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#ff684c'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#ffda66'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:GameGenre:nk]' palette='green_gold_10_0' type='palette'>
+            <map to='#146c36'>
+              <bucket>&quot;Strategy&quot;</bucket>
+            </map>
+            <map to='#39894c'>
+              <bucket>&quot;Sports&quot;</bucket>
+            </map>
+            <map to='#60a656'>
+              <bucket>&quot;Simulation&quot;</bucket>
+            </map>
+            <map to='#a7bf5a'>
+              <bucket>&quot;RPG&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>&quot;Action&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='online_gaming_behavior_dataset' id='online!gaming!behavior!dataset_8FF495EFD85B4FC6807C679DBA278E1A'>
+            <properties context=''>
+              <relation connection='excel-direct.0atmwi116n89qk0zka5f01igxuqw' name='online_gaming_behavior_dataset' table='[online_gaming_behavior_dataset$]' type='table'>
+                <columns gridOrigin='A1:M10001:no:A1:M10001:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='PlayerID' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Location' ordinal='3' />
+                  <column datatype='string' name='GameGenre' ordinal='4' />
+                  <column datatype='real' name='PlayTimeHours' ordinal='5' />
+                  <column datatype='integer' name='InGamePurchases' ordinal='6' />
+                  <column datatype='string' name='GameDifficulty' ordinal='7' />
+                  <column datatype='integer' name='SessionsPerWeek' ordinal='8' />
+                  <column datatype='integer' name='AvgSessionDurationMinutes' ordinal='9' />
+                  <column datatype='integer' name='PlayerLevel' ordinal='10' />
+                  <column datatype='integer' name='AchievementsUnlocked' ordinal='11' />
+                  <column datatype='string' name='EngagementLevel' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+      <datasources>
+        <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+        <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+        <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+        <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+        <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]'>
+        <groupfilter function='level-members' level='[none:EngagementLevel:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]'>
+        <groupfilter function='level-members' level='[none:GameGenre:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]'>
+        <groupfilter function='level-members' level='[none:Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_EF4BE1EDFA2947F6A25B8216375EB493]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Online Gaming Behavior Dashboard' type='sheet' worksheet='Average Age by Gender and Location' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Online Gaming Behavior Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average Age by Gender and Location'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Average Age by Gender and Location</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+            <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Gender:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gender:nk]' />
+              <groupfilter function='member' level='[none:Gender:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Gender:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:Age:qk]' scope='rows' value='Average Age' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#eaf9b3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:Age:qk]</rows>
+        <cols>([federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Gender:nk] / [federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk])</cols>
+      </table>
+      <simple-id uuid='{86F00DDA-FF38-496F-BDEA-B2CFE51C0289}' />
+    </worksheet>
+    <worksheet name='Average Play Time hours by Game Genre'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Average Play Time hours by Game Genre</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+            <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+            <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column caption='Play Time Hours' datatype='real' name='[PlayTimeHours]' role='measure' type='quantitative' />
+            <column-instance column='[PlayTimeHours]' derivation='Avg' name='[avg:PlayTimeHours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PlayTimeHours]' derivation='Sum' name='[sum:PlayTimeHours:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[Action (Gender,Location)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_EF4BE1EDFA2947F6A25B8216375EB493]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Gender]' />
+              <groupfilter function='level-members' level='[Location]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[Action (Gender,Location)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:PlayTimeHours:qk]' scope='rows' value='Average Play Time Hours' />
+            <encoding attr='space' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:PlayTimeHours:qk]' field-type='quantitative' max='15.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#eaf9b3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' />
+              <text column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[sum:PlayTimeHours:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:PlayTimeHours:qk]</rows>
+        <cols>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</cols>
+      </table>
+      <simple-id uuid='{B8227718-E41E-4751-A1B2-3903376EA330}' />
+    </worksheet>
+    <worksheet name='Average Session Duration by Weekly Sessions and Engagement Level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Average Session Duration by Weekly Sessions and Engagement Level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+            <column caption='Avg Session Duration Minutes' datatype='integer' name='[AvgSessionDurationMinutes]' role='measure' type='quantitative' />
+            <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+            <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column caption='Sessions Per Week' datatype='integer' name='[SessionsPerWeek]' role='dimension' type='quantitative' />
+            <column-instance column='[AvgSessionDurationMinutes]' derivation='Avg' name='[avg:AvgSessionDurationMinutes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SessionsPerWeek]' derivation='None' name='[none:SessionsPerWeek:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[Action (Gender,Location)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_EF4BE1EDFA2947F6A25B8216375EB493]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Gender]' />
+              <groupfilter function='level-members' level='[Location]' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:AvgSessionDurationMinutes:qk]' included-values='in-range'>
+            <min>37.0</min>
+            <max>150.24857142857144</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]' included-values='in-range'>
+            <min>1</min>
+            <max>19</max>
+          </filter>
+          <slices>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:AvgSessionDurationMinutes:qk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[Action (Gender,Location)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]' field-type='quantitative' max='20' min='1' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:AvgSessionDurationMinutes:qk]' scope='rows' value='Average Session Duration Minutes' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#eaf9b3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[avg:AvgSessionDurationMinutes:qk]</rows>
+        <cols>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]</cols>
+      </table>
+      <simple-id uuid='{C4E2A5AB-F2E6-4D3A-BB34-294C2B0D86FD}' />
+    </worksheet>
+    <worksheet name='Player Engagement vs. In-Game Purchases by Game Genre'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Player Engagement vs. In-Game Purchases by Game Genre</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+            <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+            <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='In Game Purchases' datatype='integer' name='[InGamePurchases]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column-instance column='[InGamePurchases]' derivation='Count' name='[cnt:InGamePurchases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[Action (Gender,Location)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_EF4BE1EDFA2947F6A25B8216375EB493]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Gender]' />
+              <groupfilter function='level-members' level='[Location]' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</column>
+            <column>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[Action (Gender,Location)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[cnt:InGamePurchases:qk]' scope='rows' value='Number of Players with In-Game Purchases' />
+            <encoding attr='space' class='0' field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[cnt:InGamePurchases:qk]' field-type='quantitative' max='22000' min='0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#eaf9b3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[cnt:InGamePurchases:qk]</rows>
+        <cols>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</cols>
+      </table>
+      <simple-id uuid='{A0B1B8FE-8128-478E-9D14-73FBF86285FE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Online Gaming Behavior Dashboard'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#eaf9b3' />
+        </style-rule>
+      </style>
+      <size minheight='560' minwidth='420' sizing-mode='range' />
+      <datasources>
+        <datasource caption='online_gaming_behavior_dataset (online_gaming_behavior_dataset)' name='federated.1dmkb7k1bw2v9i1661ya4009r7tt' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1dmkb7k1bw2v9i1661ya4009r7tt'>
+        <column caption='Engagement Level' datatype='string' name='[EngagementLevel]' role='dimension' type='nominal' />
+        <column caption='Game Genre' datatype='string' name='[GameGenre]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+        <column-instance column='[EngagementLevel]' derivation='None' name='[none:EngagementLevel:nk]' pivot='key' type='nominal' />
+        <column-instance column='[GameGenre]' derivation='None' name='[none:GameGenre:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='86915' id='9' param='horz' type-v2='layout-flow' w='99064' x='468' y='12150'>
+            <zone h='86915' id='7' type-v2='layout-basic' w='89702' x='468' y='12150'>
+              <zone h='43458' id='5' name='Average Age by Gender and Location' w='44851' x='468' y='12150'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='10' />
+                  <format attr='padding' value='10' />
+                </zone-style>
+              </zone>
+              <zone h='43457' id='13' name='Average Play Time hours by Game Genre' w='44851' x='468' y='55608'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='10' />
+                  <format attr='padding' value='10' />
+                </zone-style>
+              </zone>
+              <zone h='43458' id='15' name='Player Engagement vs. In-Game Purchases by Game Genre' w='44851' x='45319' y='12150'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='10' />
+                  <format attr='padding' value='10' />
+                </zone-style>
+              </zone>
+              <zone h='43457' id='16' name='Average Session Duration by Weekly Sessions and Engagement Level' w='44851' x='45319' y='55608'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='10' />
+                  <format attr='padding' value='10' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='86915' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='9362' x='90170' y='12150'>
+              <zone h='14720' id='14' name='Average Play Time hours by Game Genre' pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' type-v2='color' w='9362' x='90170' y='12150'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10047' id='17' name='Average Session Duration by Weekly Sessions and Engagement Level' pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' type-v2='color' w='9362' x='90170' y='26870'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='114' h='14253' id='10' is-fixed='true' name='Average Age by Gender and Location' pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]' type-v2='color' w='9362' x='90170' y='36917'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='14837' id='11' param='vert' type-v2='layout-flow' w='9362' x='90170' y='51170'>
+                <zone h='14837' id='12' name='Average Age by Gender and Location' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]' type-v2='filter' values='database' w='9362' x='90170' y='51170'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='12617' id='18' mode='checklist' name='Player Engagement vs. In-Game Purchases by Game Genre' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' type-v2='filter' values='database' w='9362' x='90170' y='66007'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='17056' id='19' name='Average Play Time hours by Game Genre' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' type-v2='filter' values='database' w='9362' x='90170' y='78624'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='11215' id='20' type-v2='text' w='99064' x='468' y='935'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='28'>Online Gaming Behavior</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='23' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+                <zone forceUpdate='true' h='11215' id='20' type-v2='text' w='99064' x='468' y='935'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontname='Tableau Bold' fontsize='28'>Online Gaming Behavior</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14837' id='12' mode='checkdropdown' name='Average Age by Gender and Location' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]' type-v2='filter' values='database' w='9362' x='90170' y='51170'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='203' h='43458' id='5' is-fixed='true' name='Average Age by Gender and Location' w='44851' x='468' y='12150'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='114' h='14253' id='10' name='Average Age by Gender and Location' pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]' type-v2='color' w='9362' x='90170' y='36917'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12617' id='18' mode='checkdropdown' name='Player Engagement vs. In-Game Purchases by Game Genre' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' type-v2='filter' values='database' w='9362' x='90170' y='66007'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='203' h='43458' id='15' is-fixed='true' name='Player Engagement vs. In-Game Purchases by Game Genre' w='44851' x='45319' y='12150'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='17056' id='19' mode='checkdropdown' name='Average Play Time hours by Game Genre' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' type-v2='filter' values='database' w='9362' x='90170' y='78624'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='204' h='43457' id='13' is-fixed='true' name='Average Play Time hours by Game Genre' w='44851' x='468' y='55608'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14720' id='14' name='Average Play Time hours by Game Genre' pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' type-v2='color' w='9362' x='90170' y='12150'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='204' h='43457' id='16' is-fixed='true' name='Average Session Duration by Weekly Sessions and Engagement Level' w='44851' x='45319' y='55608'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10047' id='17' name='Average Session Duration by Weekly Sessions and Engagement Level' pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' type-v2='color' w='9362' x='90170' y='26870'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E44DC15C-C991-4BAE-98B8-22303FAE068F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Average Age by Gender and Location'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Gender:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D399D406-A596-4D1D-BA84-72DE6E28A19A}' />
+    </window>
+    <window class='worksheet' name='Average Play Time hours by Game Genre'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameDifficulty:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Gender:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{152FE7AA-15A9-42A7-B002-DFD470811D11}' />
+    </window>
+    <window class='worksheet' name='Player Engagement vs. In-Game Purchases by Game Genre'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameDifficulty:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E37E098D-3A98-46A7-9431-E49E198C00B6}' />
+    </window>
+    <window class='worksheet' name='Average Session Duration by Weekly Sessions and Engagement Level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</field>
+            <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:SessionsPerWeek:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5FA9CFDA-F88D-42AC-9AD3-DFDDD318BB61}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Online Gaming Behavior Dashboard'>
+      <viewpoints>
+        <viewpoint name='Average Age by Gender and Location'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:Location:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Average Play Time hours by Game Genre'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:GameGenre:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Average Session Duration by Weekly Sessions and Engagement Level'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1dmkb7k1bw2v9i1661ya4009r7tt].[none:EngagementLevel:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Player Engagement vs. In-Game Purchases by Game Genre'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='20' />
+      <simple-id uuid='{6CB958BC-2653-4AF0-B141-66F6669AE5D9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average Age by Gender and Location' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAALlUlEQVR4nO3dS28b1x0F8HPvzPAtkqLsyJJlu7brIkZboEDSoEFRNJsC+SD9SP0A3Xdb
+      IAEKdBsk3TSPOo2aOnYs05IsURRfQ87j/rvwo6A5CYcyhyPrnp8XRohr8R9yjoYzHB4qEREQ
+      WcoFgOPgbxDEec9CtHIuAAiiMwVgMnJRKEVQeulzEa3Ea226Igp8/UR5OGof4f53nZnbTRig
+      25vM3D7u9XHcHeOk05+63c1sQqLMRLj3VRvNrQ082N3DRFyMuj3UmjV09g4wqTRRQYxas4RK
+      rYbr15p49OAYV+/ewFf/eIj33r+DLz79FvXNdQaA3kQaURii/biD/x4coHn9Giq1Ah5+tQtd
+      a6H3aB+7pyG2d9bx4YdXAQj8CKh4CiaY4PsH+zg8CXBw+B2UiMhR8NGZjgHGQw+FcgjNYwBa
+      sSiIEBnA0QIjCo6jAQiiIIJbcBEGEVzPhec5CHo97HUFt643EAURQiPQELieyz0AvZncQvLG
+      67rO1N8AUKjXcasOBGMHhdL0637+7s5ZHBsEQfyDJxOMEZ5oWJI4dGZu4x4gZ08eduCUSih7
+      AqdURL87glIKjfUyOsdjqDhG83IJ/gS4tFHOe9wLhwHImRhBFBvcf3CMxnoVxVoRShns3T9B
+      tz9Gq1XDye4xnFKJAcgAA5Czy1ebKJU9lF2B8gqo1jwoJWhUQhRPi9holSFxCX2fL4Sy8PIs
+      kD/UEKMW+sfhxIVXiIDF/hlRLgLfRaEcTd32cg9QqoYL/0ClhadB6Y1SXgum/pubLlmNASCr
+      MQBkNQaArMYAkNUYALIaA0BWy+Sd4C/bj9AZDrP40am8vbmFzXojt/u3nfYHqH/zWW73b7wi
+      ej//baq1mQTg77v38GV7L4sfncof3/996gD89eE3GIbB/IUZ+cPObbRKlfkLxUDtfpL9QD82
+      wp3fAHr2ispXKQh0HM1dl5kUM75g/bVAoyjAIMovAHHaVhpj4H78p2yHmSO8+Q5QSL9xvQl4
+      DEBWYwDIagwAWY0BIKsxAGQ1BoCsxgCQ1VK/D9A56KG976NaVojg4s7PWlnORbQSqQNQKrtw
+      XQ235METgZIyHClDGzO7GxFvuVMuSEkV2jRTrs73jR0ta9CmPn+hyfGd1ee0aQBmfjOFWvCz
+      5cunE59/LRramKnbUgfAH4Wo1AqoFhVC5UKUj1hFcHQ4+0JKLf754mUSNYTR3ZSr8/1eBKP6
+      MNrMXyhRzlEFjD4F9Gzz8quU7s9dky2T+PwbVYDR0+/6pw7AxpUGNl5/MqJzhQfBZDUGgKzG
+      AJDVGACyGgNAVmMAyGoMAFmNASCrMQBkNQaArMYAkNUYALIaA0BWYwDIagwAWY0BIKsxAGQ1
+      BoCsxgCQ1RgAshoDQFZL3QoRhREmocBVgtAo1Kr5dv8QLUPqAIz6E+zvj+Bog8blOmqVIhQc
+      KAgw8y0n+RcjQdK26OQ7q4KzwKx5Sznrefj/SZhBJWwX6fcAkcGVaw343SEO2n1cbjWhpAgl
+      3rMQzLnzVVJSgJL5DWbPV2c6y9x7l2K6WSXfAi8Az+aUUop1+RajASrxMVXiQMn0Jp/+O8KM
+      oHM0QnPNw1atAlETGGVgVAg90wyXb42fqDFED1KuTtHKliGjRhCdIoSSfzWiqAGg588hOr9v
+      CH0+QeLzb1QBctZmuNaVOliHSxcNzwKR1RgAshoDQFZjAMhqDABZjQEgqzEAZDUGgKzGAJDV
+      GACyGgNAVmMAyGoMAFmNASCrMQBkNQaArMYAkNUYALIaA0BWYwDIagwAWS11K4Tf93EyiFEv
+      KQRw0VovZjkX0Uqk7wVyHEQjH8eBgjITbDQb0FKBNvFstZTkW5uopAJlGilX51vipWUNyqzN
+      XafOQS+QljrEzC/xUvlWLQHQic+/Fg31yvypA3D46ASqUoHxfcRwIBhDlIHocLZcLfdiLB+i
+      eilX5/tsiRpA1KvVkknropyjChjVB9T81jdRaUvJsmISn3+jChB1xmKs7Z9sIDICz61AlAIU
+      IM//qNldwFmmXiIBUmxUL9fmSFLPmvdjCqR+XFM/9hlKnGF2/tQB8Iou2AdNFw3PApHVGACy
+      GgNAVksMQDwZ4z//buP4ZLzqeYhWKjEAg8MuPvtkF+123qeziLKVGAC3VMT2zjqeHpzkfJac
+      KFuJARAxUNpBOAyQ/xfzEGVnJgAiMR7tnWJwPMDdd2/w3D9daAl7AEHvdAwxAq+Q95vvRNma
+      eSdYKRfvfXAXk3EA5TAAdLElHgN0Hz7Bxx99jq/vHa96HqKVSrwWqHH1EnbaA9y8w++FpIst
+      cQ/QeXiA3niCv/z5U+T9lcdEWUoMQLlZwfHeKd753U9zvwadKEuJAYgCwea1BiqVIi8Wogst
+      +Y0wE6E/NGg0+LlfutgSD4KrrTquXwug5Bx8socoQ4l7AL87xL0vHqDTnax6HqKVSgxAYa2M
+      m7e3sL1VW/U8RCv1AxfDCUwY4rTHPQBdbAkXw0X41+d7OHjchXZ5DogutoSDYIViqYBCwYXW
+      /+876Z8MEcFBNBojUC6ubvPlEb35Ei6Gc/DLX9/GL969NXV7tVHB0/0+hr0xSs0alJThSBna
+      mITdSN7NcFVo00y5Ov9mOG3q8xeac9AMZxpAqma4maKoFdOJz78WDW2mP+L1g71A6pW2q9On
+      fezvD/HW5dKzy6W3fMQqgqPD2RdSKdrDsiRqCKO7KVfn+5Efo/owOsXn7uQcNMPpU0DPPy5U
+      ur+CaX6MSXz+jSrA6DM2w61v1rG++ew31dZrjkd0XvAol6zGAJDVGACyGgNAVmMAyGoMAFmN
+      ASCrMQBkNQaArMYAkNUYALIaA0BWYwDIagwAWY0BIKsxAGQ1BoCsxgCQ1RgAshoDQFZjAMhq
+      DABZLXUtSq8zxDhSiP0xAji4caOR5VxEK5E6APVWFf6THsRx4ImwGW5J2AyXhSU0w73q5KCH
+      oyMfzTUPkXIgis1wy8BmuCxk3AxHdFHwIJisxgCQ1RgAshoDQFZjAMhqDABZjQEgqzEAZDUG
+      gKzGAJDVGACyGgNAVmMAyGoMAFmNASCrMQBkNQaArMYAkNUYALIaA0BWYwDIagwAWW3hAOx/
+      38Hj9iCLWYhWLnUv0AuTcQRVctkMtyRshstCBs1wL5QqHgbjmM1wS8JmuCxk0Az3wubOOjbP
+      PhnRucKDYLIaA0BWYwDIagwAWY0BIKsxAGQ1BoCsxgCQ1RgAshoDQFZjAMhqDABZjQEgqzEA
+      ZDUGgKzGAJDVGACyGgNAVmMAyGoLB2AyCjAc5d9QQLQMi/cCPenhsN3LYhailVu4FUIphbxb
+      X4iWZeEAXH6rikjl3VBDtBxKROQo+Aj+UEMWbPQKJy68QoRXdwl73Q4Gk/ESx1zMdmMd9dJ0
+      g5lGCQazMx36A8QiqxptxqVSBZ6e/oWSPKtA791b3WAJzNW7gJp+1Zw0qzIx3OHpKkebIloj
+      qs42wwW+i0J5+vj1ZQDkDA1p46GHQjmEfgPOJSkpQ5Sf9xipcNZs+P0CymvTzXDnZtMdnQxx
+      cPz8gTQGo/FyzzS99pMUx9i9d4BOd3414OtaxgZlghDffn2Iw6c+/FGIXtdHFvu5ZW38cTBB
+      txfhtDvCg28O8fTIx/6DY/hRtnvnhY8BsnJ0MoYRha+/e4rWdgOhKHz2zzZ+9cEdNKvn4JjD
+      GIwnMeCP8CSMMeyMAKVhwgDluofT/QCVhoP7uyd494PbaNbyfWi7Jz62b27g6PEJHn87wtp6
+      Ce3HA4SDASKvhLKncPPtTRS983FKQ6IIo7GCE4WAACIGo0mEaH+InZ1aZvd7PvYAIjCRQRAa
+      NC9VMR5HQBxj83oDcZjf6/MpWqHgacB10HnchfYc7Fyrw9EKjqMQhYJC0cO1Wy0UC/lvVPVG
+      CXv3j+FVy2htlLC2XsXWlSrWWjVcuVLF5k7z3Gz8AKCLRQwOOoihobSG3x9D4MDE2ZYX/w9U
+      Yw/CZ0supQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Average Play Time hours by Game Genre' width='192'>
+      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
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Average Session Duration by Weekly Sessions and Engagement Level' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Online Gaming Behavior Dashboard' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Player Engagement vs. In-Game Purchases by Game Genre' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
