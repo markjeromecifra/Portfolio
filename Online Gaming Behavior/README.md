@@ -199,4 +199,6 @@ ORDER BY percentage DESC;
 
 ## Tableau Visualization
 This dashboard offers insights into how different demographics and game genres behave when they play. It looks at important data including average age by location and gender, player engagement levels, and how these relate to in-game purchases. The dashboard also analyzes session duration based on weekly sessions and engagement levels, and it shows the average playing hours by game genre. Game developers and marketers can gain important data-driven insights from this graphic representation of player behavior trends and patterns.
+
+Feel free to check out the "Online Gaming Behavior" dashboard on Tableau Public [here](https://public.tableau.com/app/profile/mark.jerome.cifra/viz/OnlineGamingBehavior/OnlineGamingBehaviorDashboard).
 ![Online Gaming Behavior Tableau Visualizaation](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior/Tableau/Online%20Gaming%20Behavior%20Dashboard.png)
