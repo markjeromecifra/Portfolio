@@ -67,7 +67,7 @@ FROM Outliers
 GROUP BY id,name,brand,price,price_difference
 ORDER BY price_difference DESC
 ```
-![Query 1](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%201.png)
+![Query 1](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%201.png)
 
 ### 2. Inventory Age Analysis
 The client wants to understand how the vehicle age affects pricing. Also, identify the oldest vehicle(s) in the inventory and provide their details.
@@ -86,14 +86,14 @@ FROM carAge
 ORDER BY car_age
 
 ```
-![Query 2.1](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%202.1.png)
+![Query 2.1](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%202.1.png)
 2.2
 ```sql
 SELECT * FROM cars
 WHERE year = (SELECT MIN(year) FROM cars)
 
 ```
-![Query 2.2](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%202.2.png)
+![Query 2.2](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%202.2.png)
 
 ### 3. Sales Forecast Based on Fuel Type
 The client suspects that fuel type might influence the likelihood of selling the vehicles quickly. 
@@ -114,7 +114,7 @@ fuel_numeric AS (
 
 SELECT CORR(fuel_code,avg_kilometer) FROM fuel_numeric
 ```
-![Query 3](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%203.png)
+![Query 3](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%203.png)
 
 ### 4. Luxury Vehicle Identification
 The client wants to create a targeted marketing campaign for luxury vehicles. 
@@ -136,7 +136,7 @@ WHERE brand IN ('Mercedes-Benz','BMW')
 GROUP BY id,name,brand,price,year,type
 ORDER BY brand,price DESC
 ```
-![Query 4](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%204.png)
+![Query 4](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%204.png)
 
 ### 5. Inventory Distribution by Seating Capacity
 The client is considering stocking more family-friendly vehicles. 
@@ -153,7 +153,7 @@ FROM ave_price_seat
 GROUP BY seating_capacity,car_count,ave_price
 ORDER BY ave_price DESC
 ```
-![Query 5](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%205.png)
+![Query 5](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%205.png)
 
 ### 6. Vehicle Type Analysis
 The client is curious about how different Type of vehicles are priced. 
@@ -165,7 +165,7 @@ from cars
 GROUP BY type
 ORDER BY count_of_type DESC
 ```
-![Query 6](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market/SQL/SQL%20images/Query%206.png)
+![Query 6](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%203.png)
 
 
 
