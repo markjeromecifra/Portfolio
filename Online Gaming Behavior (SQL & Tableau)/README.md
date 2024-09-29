@@ -41,7 +41,7 @@ FROM gamers
 GROUP BY location, gender
 ORDER BY location, gender;
 ```
-![Query 1](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%201.png)
+![Query 1](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%201.png)
 
 ### 2. Engagement Level Analysis: Determine the average playtime and sessions per week for each engagement level.
 ```sql
@@ -68,7 +68,7 @@ SELECT
 FROM avg_stats
 ORDER BY avg_playtime_hours DESC;
 ```
-![Query 2](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%202.png)
+![Query 2](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%202.png)
 
 
 ### 3. Game Genre Popularity: Rank the game genres based on the total playtime across all players.
@@ -80,7 +80,7 @@ FROM gamers
 GROUP BY gamegenre
 ORDER BY total_playtime DESC;
 ```
-![Query 3](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%203.png)
+![Query 3](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%203.png)
 
 ### 4. In-Game Purchases vs. Player Level: Analyze the correlation between in-game purchases and player levels.
 ```sql
@@ -105,7 +105,7 @@ SELECT
     ROUND((players_with_purchases::NUMERIC / total_players) * 100, 2) AS percentage_with_purchases
 FROM categorized_level;
 ```
-![Query 4](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%204.png)
+![Query 4](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%204.png)
 
 ### 5. Difficulty vs. Player Achievement: Compare the average achievements unlocked across different game difficulties.
 ```sql
@@ -116,7 +116,7 @@ SELECT
 FROM gamers
 GROUP BY game_difficulty;
 ```
-![Query 5](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%205.png)
+![Query 5](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%205.png)
 
 ### 6. Player Retention Analysis: Calculate the average session duration for players who play Strategy games.
 ```sql
@@ -128,7 +128,7 @@ WHERE gamegenre = 'Strategy' AND sessions_per_week > 0
 GROUP BY sessions_per_week
 ORDER BY sessions_per_week DESC;
 ```
-![Query 6](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%206.png)
+![Query 6](hhttps://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%206.png)
 
 ### 7. Top Players Identification: Identify the top 10 players based on PlayerLevel and AchievementsUnlocked.
 ```sql
@@ -141,7 +141,7 @@ FROM gamers
 ORDER BY points DESC
 LIMIT 10;
 ```
-![Query 7](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%207.png)
+![Query 7](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%207.png)
 
 ### 8. Regional Engagement Comparison: Compare the average engagement level across different locations.
 ```sql
@@ -162,7 +162,7 @@ SELECT
 FROM regional_engagement
 GROUP BY location;
 ```
-![Query 8](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%208.png)
+![Query 8](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%208.png)
 
 ### 9. Session Duration Insights: Find the game genre with the longest average session duration and correlate with player level.
 ```sql
@@ -174,7 +174,7 @@ FROM gamers
 GROUP BY gamegenre
 ORDER BY avg_session_duration DESC;
 ```
-![Query 9](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%209.png)
+![Query 9](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%209.png)
 
 ### 10. In-Game Purchases Analysis: Calculate the percentage of players making in-game purchases within each game genre.
 ```sql
@@ -194,7 +194,7 @@ SELECT
 FROM spending_behavior
 ORDER BY percentage DESC;
 ```
-![Query 10](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/SQL/SQL%20images/Query%2010.png)
+![Query 10](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%2010.png)
 
 
 ## Tableau Visualization
