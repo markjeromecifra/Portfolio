@@ -87,6 +87,7 @@ ORDER BY car_age
 
 ```
 ![Query 2.1](https://github.com/markjeromecifra/portfolio/blob/main/Australia%20Car%20Market%20(SQL%20%26%20Tableau)/SQL/SQL%20images/Query%202.1.png)
+
 2.2
 ```sql
 SELECT * FROM cars
