@@ -10,7 +10,7 @@ The increasing popularity of online gaming has made it essential for platform op
 
 ## Data
 
-This project involves analyzing the [online_gaming_behavior_dataset](https://github.com/markjeromecifra/Portfolio/blob/main/Online%20Gaming%20Behavior/Data/online_gaming_behavior_dataset.csv) using SQL scripts. The dataset offers comprehensive details about online gamers, including attributes such as player demographics, engagement levels, and in-game behaviors. Through a variety of SQL queries to extract useful trends and insights from this data in order to gain a deeper understanding of player behavior and preferences. A wide number of factors are included in the analysis, including in-game purchases, gaming session routine, and user age and gender.
+This project involves analyzing the [online_gaming_behavior_dataset](https://github.com/markjeromecifra/portfolio/blob/main/Online%20Gaming%20Behavior%20(SQL%20%26%20Tableau)/Data/online_gaming_behavior_dataset.csv) using SQL scripts. The dataset offers comprehensive details about online gamers, including attributes such as player demographics, engagement levels, and in-game behaviors. Through a variety of SQL queries to extract useful trends and insights from this data in order to gain a deeper understanding of player behavior and preferences. A wide number of factors are included in the analysis, including in-game purchases, gaming session routine, and user age and gender.
 
 In addition to SQL analysis, interactive visualizations will be created using Tableau to provide a more intuitive exploration of the data. These visualizations will help to further uncover patterns and trends, making it easier to interpret the insights derived from the dataset.
 
